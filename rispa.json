@@ -2,29 +2,19 @@
   "mode": "dev",
   "pluginsPath": "./packages",
   "plugins": [
-    "rispa-redux",
-    "rispa-webpack-javascript",
-    "rispa-config",
     "rispa-core",
-    "rispa-ui-kit",
-    "rispa-render-static",
-    "rispa-client",
-    "rispa-render-server",
     "rispa-webpack",
+    "rispa-config",
+    "rispa-webpack-javascript",
     "rispa-routes",
-    "rispa-server"
+    "rispa-client"
   ],
   "remotes": {
-    "rispa-redux": "https://github.com/rispa-io/rispa-redux.git",
-    "rispa-webpack-javascript": "https://github.com/rispa-io/rispa-webpack-javascript.git",
-    "rispa-config": "https://github.com/rispa-io/rispa-config.git",
     "rispa-core": "https://github.com/rispa-io/rispa-core.git",
-    "rispa-ui-kit": "https://github.com/rispa-io/rispa-ui-kit.git",
-    "rispa-render-static": "https://github.com/rispa-io/rispa-render-static.git",
-    "rispa-client": "https://github.com/rispa-io/rispa-client.git",
-    "rispa-render-server": "https://github.com/rispa-io/rispa-render-server.git",
     "rispa-webpack": "https://github.com/rispa-io/rispa-webpack.git",
+    "rispa-config": "https://github.com/rispa-io/rispa-config.git",
+    "rispa-webpack-javascript": "https://github.com/rispa-io/rispa-webpack-javascript.git",
     "rispa-routes": "https://github.com/rispa-io/rispa-routes.git",
-    "rispa-server": "https://github.com/rispa-io/rispa-server.git"
+    "rispa-client": "https://github.com/rispa-io/rispa-client.git"
   }
 }
