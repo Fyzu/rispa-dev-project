@@ -1,3 +1,6 @@
 [submodule "packages/rispa-babel"]
 	path = packages/rispa-babel
 	url = ""
+[submodule "packages/rispa-tslint-config"]
+	path = packages/rispa-tslint-config
+	url = https://github.com/rispa-io/rispa-tslint-config.git
