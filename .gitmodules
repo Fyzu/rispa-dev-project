@@ -4,3 +4,6 @@
 [submodule "packages/rispa-tslint-config"]
 	path = packages/rispa-tslint-config
 	url = https://github.com/rispa-io/rispa-tslint-config.git
+[submodule "packages/rispa-react-config"]
+	path = packages/rispa-react-config
+	url = https://github.com/rispa-io/rispa-react-config.git
