@@ -10,3 +10,6 @@
 [submodule "packages/rispa-ui-kit"]
 	path = packages/rispa-ui-kit
 	url = https://github.com/rispa-io/rispa-ui-kit.git
+[submodule "packages/rispa-render-client"]
+	path = packages/rispa-render-client
+	url = https://github.com/rispa-io/rispa-render-client
