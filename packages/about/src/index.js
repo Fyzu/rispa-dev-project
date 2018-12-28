@@ -2,7 +2,10 @@ import Loadable from 'react-loadable'
 
 const loadable = context => Loadable({
   loader: () => import('./register').then(module => module.default(context)),
-  loading: () => null,
+  loading: ({ error }) => {
+    error && console.error(error)
+    return null
+  },
 })
 
 const createRoute = context => ({
