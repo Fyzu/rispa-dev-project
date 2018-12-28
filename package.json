@@ -10,9 +10,11 @@
     "postinstall": "ris clean-cache && ris all compile",
     "build": "ris webpack build",
     "build-server": "ris react-server build",
-    "start": "ris server start-dev",
+    "start": "ris server start-de",
     "start-client": "ris server start-dev-client",
-    "start-storybook": "ris ui sb"
+    "start-storybook": "ris ui sb",
+    "lint": "ris all lint",
+    "analyze": "ris webpack analyze"
   },
   "workspaces": [
     "packages/*"
